@@ -1,3 +1,3 @@
 # Testing
 
-This repo is for testing my projects and learning Git
+## This repo is for testing my projects and learning Git
