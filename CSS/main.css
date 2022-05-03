@@ -3,3 +3,19 @@
 @import url(style.css);
 
 @import "@udacity/veritas-components/dist/styles/index.scss";
+
+.container {
+    display: grid;
+}
+
+
+
+.main {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(4,1fr);
+    grid-auto-rows: minmax(100px, auto);
+    grid-template-areas: 
+    "icon icon icon"
+    "popout popout";
+}

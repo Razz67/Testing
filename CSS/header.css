@@ -1,36 +1,16 @@
-.bg-img {
+.header {
+    display: flex;
     background-image: url("/header.png");
-
     min-height: 300px;
-
-    /* Center and scale the image */
-    background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
-
-    /* position the navbar */
-    position: relative;
 }
 
-/* Position the navbar container inside the image */
-.container {
-    position: absolute;
-    margin: 20px;
-    width: auto;
-    right: 20px;
-    top: 150px;
-}
 
 /* The navbar */
-.topnav {
-    overflow: hidden;
-}
 
 /* Navbar links */
 .topnav a {
-    float: left;
     color: #2C6EF1;
-    text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 1.5rem;
