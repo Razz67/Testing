@@ -1,22 +1,26 @@
 .header {
-    display: flex;
     background-image: url("/header.png");
-    min-height: 300px;
+    min-height: 350px;
     background-size: cover;
 }
 
 
 /* The navbar */
+.topNav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    padding: 230px 85px 0 0;
+}
 
 /* Navbar links */
-.topnav a {
+.topNav a {
     color: #2C6EF1;
-    padding: 14px 16px;
     text-decoration: none;
     font-size: 1.5rem;
 }
 
-.topnav a:hover {
+.topNav a:hover {
     background-color: #5D75AD;
     color: black;
 }
